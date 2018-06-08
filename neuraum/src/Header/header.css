@@ -1,3 +1,26 @@
-.container {
-  color: blue;
+.outerContainer {
+  width: 100%;
+  height: 50px;
+  background-color: #093b5e;
+  display: flex;
+  justify-content: center;
+}
+
+.innerContainer {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  max-width: 1000px;
+  padding: 7px;
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
+}
+
+.logoText {
+  margin-left: 6px;
+  font-size: 17px;
+  color: white;
 }

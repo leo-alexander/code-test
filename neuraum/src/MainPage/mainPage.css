@@ -1,0 +1,23 @@
+.container {
+  width: 80%;
+  max-width: 1000px;
+}
+
+.globalSort {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 0 0 auto;
+  height: 60px;
+  width: 300px;
+}
+
+.sortText {
+  color: #3ab5e6;
+  font-size: 20px;
+}
+
+.vendorTablesContainer {
+  padding: 20px 0;
+  border-top: 3px solid grey;
+}

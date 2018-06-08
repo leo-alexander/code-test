@@ -1,0 +1,44 @@
+.container {
+  width: 100%;
+  margin: 0 0 50px 0;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 95px;
+  font-size: 25px;
+  border: 2px solid #3ab5e6;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  width: 235px;
+}
+
+.logo {
+  max-height: 64px;
+  border: 2px solid grey;
+  border-radius: 6px;
+}
+
+.vendorName {
+  text-decoration: underline #3ab5e6 solid;
+}
+
+@media (max-width: 500px) {
+  .vendorName {
+    font-size: 15px;
+  }
+  .text {
+    font-size: 12px;
+  }
+  .cellImage {
+    height: 80px;
+  }
+}
